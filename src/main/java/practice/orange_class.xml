@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample suite">
+    <test name="Sample Test" parallel="methods" thread-count="2" >
+        <classes>
+            <class name="practice.orange1"> </class>
+            <class name="practice.orange2"> </class>
+            <class name="practice.orange3"> </class>
+            <class name="practice.orange4"> </class>
+            <class name="practice.orange5"> </class>
+        </classes>
+    </test>
+</suite>
